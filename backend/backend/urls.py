@@ -60,4 +60,7 @@ urlpatterns = [
     
     # Router
     path('api/', include(router.urls)),
+    
+    #Recuperar contraseña
+    path('api/accounts/', include('accounts.urls')),
 ]
